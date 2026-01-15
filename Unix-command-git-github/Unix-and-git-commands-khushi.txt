@@ -10,7 +10,7 @@ git push -u origin main
 //Write more in README.md file then
 README.md ”Readme file”
 git add README.md
-git commit -m” [Divyanshu] add: First change”
+git commit -m” [Khushi] add: First change”
 git status
 ls
 
@@ -20,14 +20,14 @@ git checkout feature-a
 cat > server.js
 ls
 git add server.js
-git commit -m"[Divyanshu] add: server file"
+git commit -m"[khushi] add: server file"
 git push
 git push -u origin feature-a
 git checkout main
 git checkout -b 'feature-b'
 cat > server.js
 git add server.js
-git commit -m"[Divyanshu] add: server file"
+git commit -m"[khushi] add: server file"
 git push -u origin feature-b
 git status
 git checkout feature-a
@@ -85,4 +85,5 @@ git tag -a v1.0 -m "First stable release"
 git remote add origin https://github.com/your-username/advanced-git.git
 git push origin main
 git push origin --tags
+
 
